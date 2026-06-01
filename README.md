@@ -4,7 +4,7 @@ Me gusta aprender y trabajar con los demas
 
 ## 🌐 Redes Sociales:
 [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@@izanvilchutd) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@qux925) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:izanvilchez6@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/@izanvilchez) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/izanvilchez) 
 
 # 💻 Mis conocimientos:
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) 
