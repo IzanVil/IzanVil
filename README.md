@@ -1,9 +1,9 @@
 # 💫 Sobre mi:
-Me gusta aprender y trabajar con los demas
+Me gusta trastear con código, probar cosas, crear aplicaciones sencillas y funcionales para que las pueda usar todo el mundo, absolutamente todo lo que haga esta subido en los respectivos repositorios que tengo publicados, donde se puede ver todos los procedimientos y cambios
 
 
 ## 🌐 Redes Sociales:
-[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@izanvilchutd) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@qux925) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:izanvilchez6@gmail.com)
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:izanvilchez6@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/izanvilchez) 
 
 # 💻 Mis conocimientos:
