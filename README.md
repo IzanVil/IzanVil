@@ -20,5 +20,5 @@ Estudiante de 19 años con un marcado interés por el desarrollo de software. En
 ## 🏆 Mis trofeos de GitHub
 ![](https://github-profile-trophy.vercel.app/?username=IzanVil&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍️ Palabra aleatoria de desarrollador...
+### ✍️ Frase aleatoria de desarrollador...
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
