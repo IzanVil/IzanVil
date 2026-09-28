@@ -61,14 +61,24 @@ Soy un desarrollador de **España** 🇪🇸 con pasión por crear soluciones in
 
 ## 🎯 Proyectos Destacados
 
-### 📌 [IzanVil](https://github.com/IzanVil/IzanVil)
-Perfil personal con documentación completa de mi trayectoria y contribuciones.
-
 ### 📦 [Adeorq-releases-linux](https://github.com/IzanVil/Adeorq-releases-linux)
-Fork de un proyecto innovador de agentes AI para desarrollo. Utilizando **TypeScript** para crear soluciones escalables.
+Fork de un proyecto innovador de agentes AI para desarrollo. Utilizando **TypeScript** para crear soluciones escalables con nueve agentes trabajando en una pantalla.
+
+### 🎮 [Last Click Game](https://github.com/IzanVil/last-click-game)
+Juego interactivo desarrollado con **[Lenguaje/Framework]**. [Descripción breve del gameplay y características].
+- ⭐ [X] Stars
+- 📌 Lenguajes: [TypeScript/Unity/etc]
+- 🎯 Características: [Enumera features principales]
+
+### 📊 [DataSemVer](https://github.com/IzanVil/datasemver)
+Sistema de versionamiento semántico de datos con [descripción]. Útil para [caso de uso].
+- ⭐ [X] Stars
+- 📌 Lenguajes: [TypeScript/Python/etc]
+- 🎯 Características: [Features]
 
 ### 🔧 Otros Proyectos
-Aqui publicaré mis proximos proyectos, tic tac
+
+#### mosaic
 
 ---
 
