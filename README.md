@@ -65,16 +65,14 @@ Soy un desarrollador de **España** 🇪🇸 con pasión por crear soluciones in
 Fork de un proyecto innovador de agentes AI para desarrollo. Utilizando **TypeScript** para crear soluciones escalables con nueve agentes trabajando en una pantalla.
 
 ### 🎮 [Last Click Game](https://github.com/IzanVil/last-click-game)
-Juego interactivo desarrollado con **[Lenguaje/Framework]**. [Descripción breve del gameplay y características].
-- ⭐ [X] Stars
-- 📌 Lenguajes: [TypeScript/Unity/etc]
-- 🎯 Características: [Enumera features principales]
+Juego interactivo desarrollado con **[Lenguaje/Framework]**. [Juego corto y divertido tanto en la terminal (Python) como en GDScript, ¿Seras capaz de derrotar a la suerte?
+- 📌 Lenguajes: [TypeScript/Python]
+- 🎯 Características: [Versión 1,0]
 
 ### 📊 [DataSemVer](https://github.com/IzanVil/datasemver)
-Sistema de versionamiento semántico de datos con [descripción]. Útil para [caso de uso].
-- ⭐ [X] Stars
-- 📌 Lenguajes: [TypeScript/Python/etc]
-- 🎯 Características: [Features]
+Sistema de versionamiento semántico de datos que compara dos versiones de un dataset (CSV, JSON, Parquet, Excel o tabla SQL), clasifica cada diferencia como patch, minor o breaking, y genera la entrada de changelog correspondiente. Útil para equipos que comparten datasets y necesitan saber si un cambio romperá los pipelines, dashboards o modelos que dependen de ellos.
+- 📌 Lenguajes: [TypeScript/Python/CSS/HTML]
+- 🎯 Características: [Features v0.8.2]
 
 ### 🔧 Otros Proyectos
 
