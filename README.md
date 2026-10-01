@@ -2,6 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:DA291C&height=200&section=header&text=Hola%2C%20soy%20Izan&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Estudiante%20de%20ASIR%20%C2%B7%20Sistemas%20y%20DevOps&descAlignY=58&descSize=18" width="100%"/>
 
+<a href="https://github.com/IzanVil/IzanVil/blob/HEAD/README.en.md"><img src="https://img.shields.io/badge/English-1a1a1a?style=flat-square"/></a>
+<a href="https://github.com/IzanVil"><img src="https://img.shields.io/badge/Español-DA291C?style=flat-square"/></a>
+
 <a href="https://miportfolio.i-vilches.workers.dev">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=DA291C&center=true&vCenter=true&width=600&lines=Sistemas%2C+automatizaci%C3%B3n+y+cloud;Linux%2C+redes+y+CI%2FCD;Construyo+herramientas+y+simuladores+propios;Abierto+a+pr%C3%A1cticas+en+sistemas+%2F+DevOps" alt="Typing SVG"/>
 </a>
