@@ -1,142 +1,102 @@
-# Hola, soy Izan Vílchez 👋
-
 <div align="center">
 
-**Desarrollador apasionado | Innovador | Comprometido con la excelencia**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:DA291C&height=200&section=header&text=Hola%2C%20soy%20Izan&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Estudiante%20de%20ASIR%20%C2%B7%20Sistemas%20y%20DevOps&descAlignY=58&descSize=18" width="100%"/>
 
-*"Nunca dejes de perseguir lo que te propongas"*
+<a href="https://miportfolio.i-vilches.workers.dev">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=DA291C&center=true&vCenter=true&width=600&lines=Sistemas%2C+automatizaci%C3%B3n+y+cloud;Linux%2C+redes+y+CI%2FCD;Construyo+herramientas+y+simuladores+propios;Abierto+a+pr%C3%A1cticas+en+sistemas+%2F+DevOps" alt="Typing SVG"/>
+</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/izan-vílchez-629187414)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=world)](https://miportfolio.i-vilches.workers.dev)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram)](https://instagram.com/izanvilchez)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail)](mailto:izanvilchez6@gmail.com)
+<br/>
+
+<a href="https://miportfolio.i-vilches.workers.dev"><img src="https://img.shields.io/badge/Portfolio-DA291C?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/izan-v%C3%ADlchez-629187414"><img src="https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:izanvilchez6@gmail.com"><img src="https://img.shields.io/badge/Email-1a1a1a?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 </div>
 
 ---
 
-## 🚀 Sobre mí
+<h2 align="center">Sobre mí</h2>
 
-Soy un desarrollador de **España** 🇪🇸 con pasión por crear soluciones innovadoras y código limpio. Me dedico a explorar nuevas tecnologías y colaborar en proyectos que desafíen mis habilidades. Mi filosofía es mantener la **transparencia total** en todos mis proyectos, documentando cada cambio y procedimiento.
-
-- 💻 Actualmente trabajando desde casa
-- 🎯 Enfocado en desarrollo full-stack y AI
-- 🌱 Aprendiendo constantemente nuevas tecnologías
-- 🤝 Abierto a colaboraciones y proyectos interesantes
-
----
-
-## 🛠️ Tech Stack
-
-### Lenguajes & Frameworks
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
-
-### Bases de Datos
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-
-### Herramientas & Plataformas
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D70015?style=flat-square&logo=apache&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
-
-### Diseño & Multimedia
-![Adobe Suite](https://img.shields.io/badge/Adobe%20Suite-FF0000?style=flat-square&logo=adobe&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white)
+- **Formación:** CFGS en Administración de Sistemas Informáticos en Red (ASIR), Madrid
+- **Intereses:** sistemas, automatización y cloud
+- **Cómo aprendo:** construyendo herramientas de datos, simuladores y juegos, siempre terminados y documentados
+- **Flujo de trabajo:** integro herramientas de IA para prototipar más rápido; el diseño, la revisión y las pruebas corren de mi cuenta
+- **Disponibilidad:** abierto a prácticas y primeras oportunidades en sistemas / DevOps
 
 ---
 
-## 📊 Estadísticas GitHub
+<h2 align="center">Proyectos destacados</h2>
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=IzanVil&show_icons=true&theme=dark&hide_border=true)
+<a href="https://github.com/IzanVil/datasemver">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=datasemver&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
+</a>
+<a href="https://github.com/IzanVil/rack-and-ruin">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=rack-and-ruin&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
+</a>
+<a href="https://github.com/IzanVil/last-click-game">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=last-click-game&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
+</a>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=IzanVil&layout=compact&theme=dark&hide_border=true)
+</div>
+
+| Proyecto | Descripción |
+|---|---|
+| [**DataSemver**](https://github.com/IzanVil/datasemver) | Detecta si un cambio en un dataset es *patch*, *minor* o *breaking*. Publicado en [PyPI](https://pypi.org/project/datasemver/) y como GitHub Action |
+| [**UPTIME · Turno de Noche**](https://github.com/IzanVil/rack-and-ruin) | Simulador de mantenimiento de un centro de datos. [Jugable en el navegador](https://izanvil.github.io/rack-and-ruin/) |
+| [**El Tambor del Juicio**](https://github.com/IzanVil/last-click-game) | Juego de deducción en terminal y en Godot, con builds automáticas para Linux y Windows |
+
+---
+
+<h2 align="center">Contribuciones open source</h2>
+
+<div align="center">
+
+<a href="https://github.com/microsoft/azurelinux/pull/18982"><img src="https://img.shields.io/badge/microsoft%2Fazurelinux-PR%20%2318982%20merged-DA291C?style=for-the-badge&logo=github&logoColor=white"/></a>
+
+**[Azure Linux](https://github.com/microsoft/azurelinux)**, la distribución Linux de Microsoft para Azure
+
+</div>
+
+Detecté y corregí tres enlaces rotos en la documentación del pipeline de CI: usaban rutas desde la raíz del repositorio y GitHub los resolvía desde la carpeta del propio archivo, así que daban 404. Verifiqué que la regeneración automática de la documentación no deshacía el cambio. El equipo de Azure Linux revisó el PR y lo fusionó, y a raíz de él el maintainer empezó a configurar su comprobador de enlaces para detectar este tipo de error.
+
+*Fusionado el 29 de septiembre de 2026*
+
+---
+
+<h2 align="center">Tecnologías</h2>
+
+<div align="center">
+
+**Sistemas y cloud**
+
+<img src="https://skillicons.dev/icons?i=linux,bash,powershell,docker,gcp,githubactions,git&theme=dark" />
+
+<img src="https://img.shields.io/badge/Apache-1a1a1a?style=flat-square&logo=apache&logoColor=DA291C"/>
+<img src="https://img.shields.io/badge/MariaDB-1a1a1a?style=flat-square&logo=mariadb&logoColor=DA291C"/>
+
+**Desarrollo**
+
+<img src="https://skillicons.dev/icons?i=python,cs,ts,unity,godot&theme=dark" />
 
 </div>
 
 ---
 
-## 🎯 Proyectos Destacados
-
-### 📦 [Adeorq-releases-linux](https://github.com/IzanVil/Adeorq-releases-linux)
-Fork de un proyecto innovador de agentes AI para desarrollo. Utilizando **TypeScript** para crear soluciones escalables con nueve agentes trabajando en una pantalla.
-
-### 🎮 [Last Click Game](https://github.com/IzanVil/last-click-game)
-Juego interactivo desarrollado con **[Lenguaje/Framework]**. [Juego corto y divertido tanto en la terminal (Python) como en GDScript, ¿Seras capaz de derrotar a la suerte?
-- 📌 Lenguajes: [TypeScript/Python]
-- 🎯 Características: [Versión 1,0]
-
-### 📊 [DataSemVer](https://github.com/IzanVil/datasemver)
-Sistema de versionamiento semántico de datos que compara dos versiones de un dataset (CSV, JSON, Parquet, Excel o tabla SQL), clasifica cada diferencia como patch, minor o breaking, y genera la entrada de changelog correspondiente. Útil para equipos que comparten datasets y necesitan saber si un cambio romperá los pipelines, dashboards o modelos que dependen de ellos.
-- 📌 Lenguajes: [TypeScript/Python/CSS/HTML]
-- 🎯 Características: [Features v0.8.2]
-
-### 🔧 Otros Proyectos
-
-#### mosaic
-
----
-
-## 💡 Lo que me interesa
-
-- 🤖 **Inteligencia Artificial & Machine Learning**
-- 🌐 **Desarrollo Web Full-Stack**
-- 🎮 **Game Development** (Unity)
-- ☁️ **Cloud Computing** (Google Cloud)
-- 📱 **Soluciones Escalables**
-- 🔐 **Seguridad & Buenas Prácticas**
-
----
-
-## 🌟 Filosofía de Código
-
-✅ **Transparencia Total** — Todos mis cambios están documentados
-✅ **Código Limpio** — Legibilidad y mantenibilidad primero
-✅ **Documentación Clara** — Cada proyecto incluye guías detalladas
-✅ **Colaboración** — Siempre abierto a feedback y mejoras
-✅ **Innovación** — Explorando nuevas tecnologías constantemente
-
----
-
-## 📈 Objetivos para 2026-2027
-
-- 🎯 Contribuir activamente a proyectos open-source
-- 🚀 Desarrollar y publicar nuevos proyectos innovadores
-- 📚 Deepening knowledge en AI/ML y cloud technologies
-- 🤝 Colaborar con más desarrolladores de la comunidad
-- 💼 Expandir mi presencia profesional en tech
-
----
-
-## 📬 ¿Hablamos?
-
-Siempre estoy interesado en:
-- 💼 Nuevas oportunidades laborales
-- 🤝 Colaboraciones en proyectos
-- 💬 Intercambiar ideas y experiencias
-- 🎓 Mentoría y aprendizaje mutuo
-
-**Contáctame:**
-- 📧 [Email](mailto:izanvilchez6@gmail.com)
-- 💼 [LinkedIn](https://linkedin.com/in/izan-vílchez-629187414)
-- 🌐 [Portfolio](https://web.i-vilches.workers.dev/)
-
----
+<h2 align="center">Frase del día</h2>
 
 <div align="center">
 
-### 🎨 Algunos datos curiosos
-
-![Profile Views](https://komarev.com/ghpvc/?username=IzanVil&color=blue&style=flat-square)
-
-**⭐ Si te gusta mi trabajo, no dudes en dejar una estrella en mis repos**
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
 
 </div>
 
 ---
 
-### ✍️ Frase aleatoria de desarrollador...
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:DA291C,100:1a1a1a&height=120&section=footer" width="100%"/>
+
+</div>
