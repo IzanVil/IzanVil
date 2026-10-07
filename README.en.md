@@ -36,6 +36,9 @@
 <a href="https://github.com/IzanVil/datasemver">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=datasemver&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
 </a>
+<a href="https://github.com/IzanVil/mosaic">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=mosaic&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
+</a>
 <a href="https://github.com/IzanVil/rack-and-ruin">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=rack-and-ruin&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
 </a>
@@ -48,6 +51,7 @@
 | Project | Description |
 |---|---|
 | [**DataSemver**](https://github.com/IzanVil/datasemver) | Tells you whether a dataset change is a *patch*, *minor* or *breaking* release. Published on [PyPI](https://pypi.org/project/datasemver/) and as a GitHub Action |
+| [**Mosaic**](https://github.com/IzanVil/mosaic) | Local-first desktop dashboard for all your code projects, with live Git status. For Linux, Windows and macOS. [See the website](https://mosaic-app.i-vilches.workers.dev) |
 | [**UPTIME · Turno de Noche**](https://github.com/IzanVil/rack-and-ruin) | Data center maintenance simulator. [Playable in the browser](https://izanvil.github.io/rack-and-ruin/) |
 | [**El Tambor del Juicio**](https://github.com/IzanVil/last-click-game) | Deduction game for the terminal and Godot, with automated builds for Linux and Windows |
 
@@ -75,7 +79,7 @@ I found and fixed three broken links in the CI pipeline documentation: they used
 
 **Systems & cloud**
 
-<img src="https://skillicons.dev/icons?i=linux,bash,powershell,docker,gcp,githubactions,git&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,rust,ts,svelte,cs,unity,godot&theme=dark" />
 
 <img src="https://img.shields.io/badge/Apache-1a1a1a?style=flat-square&logo=apache&logoColor=DA291C"/>
 <img src="https://img.shields.io/badge/MariaDB-1a1a1a?style=flat-square&logo=mariadb&logoColor=DA291C"/>
