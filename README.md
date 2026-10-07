@@ -79,7 +79,7 @@ Detecté y corregí tres enlaces rotos en la documentación del pipeline de CI: 
 
 **Sistemas y cloud**
 
-<img src="https://skillicons.dev/icons?i=linux,bash,powershell,docker,gcp,githubactions,git&theme=dark" />
+<img src="https://skillicons.dev/icons?i=linux,python,rust,ts,svelte,cs,unity,godot&theme=dark" />
 
 <img src="https://img.shields.io/badge/Apache-1a1a1a?style=flat-square&logo=apache&logoColor=DA291C"/>
 <img src="https://img.shields.io/badge/MariaDB-1a1a1a?style=flat-square&logo=mariadb&logoColor=DA291C"/>
