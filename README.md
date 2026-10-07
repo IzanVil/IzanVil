@@ -36,6 +36,9 @@
 <a href="https://github.com/IzanVil/datasemver">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=datasemver&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
 </a>
+<a href="https://github.com/IzanVil/mosaic">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=mosaic&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
+</a>
 <a href="https://github.com/IzanVil/rack-and-ruin">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=rack-and-ruin&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
 </a>
@@ -48,6 +51,7 @@
 | Proyecto | Descripción |
 |---|---|
 | [**DataSemver**](https://github.com/IzanVil/datasemver) | Detecta si un cambio en un dataset es *patch*, *minor* o *breaking*. Publicado en [PyPI](https://pypi.org/project/datasemver/) y como GitHub Action |
+| [**Mosaic**](https://github.com/IzanVil/mosaic) | Panel de escritorio local-first con todos tus proyectos de código y su estado de Git en vivo. Para Linux, Windows y macOS. [Ver la web](https://mosaic-app.i-vilches.workers.dev) |
 | [**UPTIME · Turno de Noche**](https://github.com/IzanVil/rack-and-ruin) | Simulador de mantenimiento de un centro de datos. [Jugable en el navegador](https://izanvil.github.io/rack-and-ruin/) |
 | [**El Tambor del Juicio**](https://github.com/IzanVil/last-click-game) | Juego de deducción en terminal y en Godot, con builds automáticas para Linux y Windows |
 
