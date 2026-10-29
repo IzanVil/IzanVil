@@ -57,21 +57,36 @@
 
 ---
 
-<h2 align="center">Contribuciones open source</h2>
+<h2 align="center">Contribuciones destacadas Open Source</h2>
 
 <div align="center">
 
-<a href="https://github.com/microsoft/azurelinux/pull/18982"><img src="https://img.shields.io/badge/microsoft%2Fazurelinux-PR%20%2318982%20merged-DA291C?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/microsoft/azurelinux/pull/18982">
+  <img src="https://img.shields.io/badge/Azure%20Linux-PR%20%2318982%20Merged-DA291C?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-**[Azure Linux](https://github.com/microsoft/azurelinux)**, la distribución Linux de Microsoft para Azure
+<a href="https://github.com/microsoft/azurelinux/pull/18984">
+  <img src="https://img.shields.io/badge/Azure%20Linux-PR%20%2318984%20Merged-DA291C?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://github.com/microsoft/azure-linux-dev-tools/pull/392">
+  <img src="https://img.shields.io/badge/Azure%20Linux%20Dev%20Tools-PR%20%23392%20Merged-DA291C?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 </div>
 
-Detecté y corregí tres enlaces rotos en la documentación del pipeline de CI: usaban rutas desde la raíz del repositorio y GitHub los resolvía desde la carpeta del propio archivo, así que daban 404. Verifiqué que la regeneración automática de la documentación no deshacía el cambio. El equipo de Azure Linux revisó el PR y lo fusionó, y a raíz de él el maintainer empezó a configurar su comprobador de enlaces para detectar este tipo de error.
+<br>
 
-*Fusionado el 29 de septiembre de 2026*
+Microsoft Azure Linux y herramientas relacionadas.
 
----
+Contribuciones fusionadas en:
+
+- Corrección de documentación técnica
+- Resolución de enlaces rotos y referencias incorrectas
+- Mejora de la experiencia para desarrolladores
+- Documentación de configuración y personalización
+
+Estas contribuciones fueron revisadas y aceptadas por los mantenedores de los proyectos
 
 <h2 align="center">Tecnologías</h2>
 
