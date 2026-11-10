@@ -35,7 +35,7 @@ Try them: [RippleRack on PyPI](https://pypi.org/project/ripplerack/) · [datasem
 
 ## Stack
 
-<img src="assets/stack.en.svg" width="100%" alt="Linux, Debian, Fedora, Proxmox, Docker, Bash, Git, GitHub Actions, Cloudflare, Apache, MariaDB, Cisco, Python, Rust, TypeScript, Svelte, Tauri, Godot, Unity"/>
+<img src="assets/stack.en.svg" width="100%" alt="Linux, Debian, Fedora, Proxmox, Docker, Bash, Git, GitHub Actions, Cloudflare, Apache, MariaDB, Cisco, Python, Rust, TypeScript, Svelte, Tauri, Godot, Unity, Claude Code"/>
 
 ## Activity
 

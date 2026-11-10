@@ -35,7 +35,7 @@ Para probarlos: [RippleRack en PyPI](https://pypi.org/project/ripplerack/) · [d
 
 ## Stack
 
-<img src="assets/stack.es.svg" width="100%" alt="Linux, Debian, Fedora, Proxmox, Docker, Bash, Git, GitHub Actions, Cloudflare, Apache, MariaDB, Cisco, Python, Rust, TypeScript, Svelte, Tauri, Godot, Unity"/>
+<img src="assets/stack.es.svg" width="100%" alt="Linux, Debian, Fedora, Proxmox, Docker, Bash, Git, GitHub Actions, Cloudflare, Apache, MariaDB, Cisco, Python, Rust, TypeScript, Svelte, Tauri, Godot, Unity, Claude Code"/>
 
 ## Actividad
 

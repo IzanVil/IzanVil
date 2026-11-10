@@ -253,7 +253,7 @@ STACK_SISTEMAS = [
 ]
 STACK_DESARROLLO = [
     ("python", "Python"), ("rust", "Rust"), ("typescript", "TypeScript"), ("svelte", "Svelte"),
-    ("tauri", "Tauri"), ("godotengine", "Godot"), ("unity", "Unity"),
+    ("tauri", "Tauri"), ("godotengine", "Godot"), ("unity", "Unity"), ("claudecode", "Claude Code"),
 ]
 
 def icono(slug: str, x: float, y: float, tam: float, color: str) -> str:
