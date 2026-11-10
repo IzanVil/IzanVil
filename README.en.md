@@ -6,7 +6,7 @@
 <a href="https://www.linkedin.com/in/izan-v%C3%ADlchez-629187414"><img src="assets/boton-linkedin.svg" height="34" alt="LinkedIn"/></a>&nbsp;
 <a href="mailto:izanvilchez6@gmail.com"><img src="assets/boton-email.svg" height="34" alt="Email"/></a>
 
-<sub><a href="README.md">Español</a> · <b>English</b></sub>
+<sub><a href="https://github.com/IzanVil">Español</a> · <b>English</b></sub>
 
 </div>
 
