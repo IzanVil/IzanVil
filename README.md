@@ -1,124 +1,46 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:DA291C&height=200&section=header&text=Hola%2C%20soy%20Izan&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Estudiante%20de%20ASIR%20%C2%B7%20Sistemas%20y%20DevOps&descAlignY=58&descSize=18" width="100%"/>
+<img src="assets/cabecera.es.svg" width="100%" alt="izan@fedora:~$ cat sobre-mi.txt — Izan Vílchez, estudiante de ASIR en Madrid. Busco prácticas de sistemas / DevOps."/>
 
-<a href="https://github.com/IzanVil/IzanVil/blob/HEAD/README.en.md"><img src="https://img.shields.io/badge/English-1a1a1a?style=flat-square"/></a>
-<a href="https://github.com/IzanVil"><img src="https://img.shields.io/badge/Español-DA291C?style=flat-square"/></a>
+<a href="https://miportfolio.i-vilches.workers.dev"><img src="assets/boton-portfolio.svg" height="34" alt="Portfolio"/></a>&nbsp;
+<a href="https://www.linkedin.com/in/izan-v%C3%ADlchez-629187414"><img src="assets/boton-linkedin.svg" height="34" alt="LinkedIn"/></a>&nbsp;
+<a href="mailto:izanvilchez6@gmail.com"><img src="assets/boton-email.svg" height="34" alt="Email"/></a>
 
-<a href="https://miportfolio.i-vilches.workers.dev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=DA291C&center=true&vCenter=true&width=600&lines=Sistemas%2C+automatizaci%C3%B3n+y+cloud;Linux%2C+redes+y+CI%2FCD;Construyo+herramientas+y+simuladores+propios;Abierto+a+pr%C3%A1cticas+en+sistemas+%2F+DevOps" alt="Typing SVG"/>
-</a>
-
-<br/>
-
-<a href="https://miportfolio.i-vilches.workers.dev"><img src="https://img.shields.io/badge/Portfolio-DA291C?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/izan-v%C3%ADlchez-629187414"><img src="https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:izanvilchez6@gmail.com"><img src="https://img.shields.io/badge/Email-1a1a1a?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<sub><b>Español</b> · <a href="README.en.md">English</a></sub>
 
 </div>
 
----
+## Proyectos
 
-<h2 align="center">Sobre mí</h2>
+<a href="https://github.com/IzanVil/RippleRack"><img src="assets/proyecto-ripplerack.es.svg" width="100%" alt="RippleRack"/></a>
 
-- **Formación:** CFGS en Administración de Sistemas Informáticos en Red (ASIR), Madrid
-- **Intereses:** sistemas, automatización y cloud
-- **Cómo aprendo:** construyendo herramientas de datos, simuladores y juegos, siempre terminados y documentados
-- **Flujo de trabajo:** integro herramientas de IA para prototipar más rápido; el diseño, la revisión y las pruebas corren de mi cuenta
-- **Disponibilidad:** abierto a prácticas y primeras oportunidades en sistemas / DevOps
+<a href="https://github.com/IzanVil/datasemver"><img src="assets/proyecto-datasemver.es.svg" width="49%" alt="datasemver"/></a>
+<a href="https://github.com/IzanVil/mosaic"><img src="assets/proyecto-mosaic.es.svg" width="49%" alt="mosaic"/></a>
+<a href="https://github.com/IzanVil/rack-and-ruin"><img src="assets/proyecto-uptime.es.svg" width="49%" alt="UPTIME"/></a>
+<a href="https://github.com/IzanVil/last-click-game"><img src="assets/proyecto-tambor.es.svg" width="49%" alt="El Tambor del Juicio"/></a>
 
----
+Para probarlos: [RippleRack en PyPI](https://pypi.org/project/ripplerack/) · [datasemver en PyPI](https://pypi.org/project/datasemver/) · [Mosaic, descargas](https://mosaic-app.i-vilches.workers.dev) · [UPTIME en el navegador](https://izanvil.github.io/rack-and-ruin/)
 
-<h2 align="center">Proyectos destacados</h2>
+## Contribuciones destacadas
 
-<div align="center">
+<a href="https://github.com/pulls?q=is%3Apr+author%3AIzanVil+is%3Amerged+org%3Amicrosoft"><img src="assets/azure.es.svg" width="100%" alt="Contribuciones a Microsoft Azure Linux: 3 pull requests fusionadas"/></a>
 
-<a href="https://github.com/IzanVil/datasemver">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=datasemver&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/IzanVil/mosaic">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=mosaic&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/IzanVil/rack-and-ruin">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=rack-and-ruin&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/IzanVil/last-click-game">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=IzanVil&repo=last-click-game&hide_border=true&bg_color=1a1a1a&title_color=DA291C&icon_color=DA291C&text_color=c9d1d9" />
-</a>
+<a href="https://github.com/microsoft/azurelinux/pull/18982"><img src="assets/pr-18982.es.svg" width="32%" alt="microsoft/azurelinux #18982"/></a>
+<a href="https://github.com/microsoft/azurelinux/pull/18984"><img src="assets/pr-18984.es.svg" width="32%" alt="microsoft/azurelinux #18984"/></a>
+<a href="https://github.com/microsoft/azure-linux-dev-tools/pull/392"><img src="assets/pr-392.es.svg" width="32%" alt="microsoft/azure-linux-dev-tools #392"/></a>
 
-</div>
+## Sobre mí
 
-| Proyecto | Descripción |
-|---|---|
-| [**DataSemver**](https://github.com/IzanVil/datasemver) | Detecta si un cambio en un dataset es *patch*, *minor* o *breaking*. Publicado en [PyPI](https://pypi.org/project/datasemver/) y como GitHub Action |
-| [**Mosaic**](https://github.com/IzanVil/mosaic) | Panel de escritorio local-first con todos tus proyectos de código y su estado de Git en vivo. Para Linux, Windows y macOS. [Ver la web](https://mosaic-app.i-vilches.workers.dev) |
-| [**UPTIME · Turno de Noche**](https://github.com/IzanVil/rack-and-ruin) | Simulador de mantenimiento de un centro de datos. [Jugable en el navegador](https://izanvil.github.io/rack-and-ruin/) |
-| [**El Tambor del Juicio**](https://github.com/IzanVil/last-click-game) | Juego de deducción en terminal y en Godot, con builds automáticas para Linux y Windows |
+<img src="assets/sobre-mi.es.svg" width="100%" alt="systemctl status izan: estudiante de ASIR; cloud privada con Proxmox, redes, sistemas y bases de datos; busco prácticas de sistemas / DevOps"/>
 
----
+## Stack
 
-<h2 align="center">Contribuciones destacadas Open Source</h2>
+<img src="assets/stack.es.svg" width="100%" alt="Linux, Debian, Fedora, Proxmox, Docker, Bash, Git, GitHub Actions, Cloudflare, Apache, MariaDB, Cisco, Python, Rust, TypeScript, Svelte, Tauri, Godot, Unity"/>
 
-<div align="center">
+## Actividad
 
-<a href="https://github.com/microsoft/azurelinux/pull/18982">
-  <img src="https://img.shields.io/badge/Azure%20Linux-PR%20%2318982%20Merged-DA291C?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<a href="https://github.com/microsoft/azurelinux/pull/18984">
-  <img src="https://img.shields.io/badge/Azure%20Linux-PR%20%2318984%20Merged-DA291C?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<a href="https://github.com/microsoft/azure-linux-dev-tools/pull/392">
-  <img src="https://img.shields.io/badge/Azure%20Linux%20Dev%20Tools-PR%20%23392%20Merged-DA291C?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</div>
-
-<br>
-
-Microsoft Azure Linux y herramientas relacionadas.
-
-Contribuciones fusionadas en:
-
-- Corrección de documentación técnica
-- Resolución de enlaces rotos y referencias incorrectas
-- Mejora de la experiencia para desarrolladores
-- Documentación de configuración y personalización
-
-Estas contribuciones fueron revisadas y aceptadas por los mantenedores de los proyectos
-
-<h2 align="center">Tecnologías</h2>
-
-<div align="center">
-
-**Sistemas y cloud**
-
-<img src="https://skillicons.dev/icons?i=linux,python,rust,ts,svelte,cs,unity,godot&theme=dark" />
-
-<img src="https://img.shields.io/badge/Apache-1a1a1a?style=flat-square&logo=apache&logoColor=DA291C"/>
-<img src="https://img.shields.io/badge/MariaDB-1a1a1a?style=flat-square&logo=mariadb&logoColor=DA291C"/>
-
-**Desarrollo**
-
-<img src="https://skillicons.dev/icons?i=python,cs,ts,unity,godot&theme=dark" />
-
-</div>
-
----
-
-<h2 align="center">Frase del día</h2>
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:DA291C,100:1a1a1a&height=120&section=footer" width="100%"/>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IzanVil/IzanVil/output/serpiente-oscuro.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IzanVil/IzanVil/output/serpiente-claro.svg"/>
+  <img alt="Serpiente comiéndose mi gráfico de contribuciones" src="https://raw.githubusercontent.com/IzanVil/IzanVil/output/serpiente-oscuro.svg"/>
+</picture>
