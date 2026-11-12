@@ -127,7 +127,7 @@ TEXTOS = {
             "Ahora mismo busco prácticas de sistemas / DevOps.",
         ],
         "azure_titulo": "Contribuciones a Microsoft Azure Linux",
-        "azure_sub": "3 pull requests fusionadas · 4 archivos",
+        "azure_sub": "{n} pull requests fusionadas · {f} archivos",
         "archivos": "archivo|archivos",
         "fusionada": "Merged",
         "servicio": "Izan Vílchez · estudiante de ASIR",
@@ -141,7 +141,7 @@ TEXTOS = {
         "diario": [
             ("2024", "empiezo SMR"),
             ("2026", "termino SMR y empiezo ASIR"),
-            ("2026", "3 PR fusionadas en Microsoft Azure Linux"),
+            ("2026", "4 PR fusionadas en Microsoft Azure Linux"),
             ("ahora", "busco prácticas de sistemas / DevOps"),
         ],
         "stack1": "sistemas",
@@ -157,7 +157,7 @@ TEXTOS = {
             "Right now I'm looking for a systems / DevOps internship.",
         ],
         "azure_titulo": "Contributions to Microsoft Azure Linux",
-        "azure_sub": "3 merged pull requests · 4 files",
+        "azure_sub": "{n} merged pull requests · {f} files",
         "archivos": "file|files",
         "fusionada": "Merged",
         "servicio": "Izan Vílchez · sysadmin student",
@@ -171,7 +171,7 @@ TEXTOS = {
         "diario": [
             ("2024", "start SMR (IT systems & networks)"),
             ("2026", "finish SMR, start ASIR"),
-            ("2026", "3 PRs merged into Microsoft Azure Linux"),
+            ("2026", "4 PRs merged into Microsoft Azure Linux"),
             ("now", "looking for a systems / DevOps internship"),
         ],
         "stack1": "systems",
@@ -181,13 +181,18 @@ TEXTOS = {
 
 # (repo, número, título del commit, archivos, +líneas, -líneas)
 PRS = [
-    ("microsoft/azurelinux", "18982", "docs(ci): fix broken links in ADO pipeline instructions", 1, 2, 2),
-    ("microsoft/azurelinux", "18984", "fix(publish): close base channel over rpmlint and dpkg-perl deps", 1, 8, 0),
+    ("microsoft/azure-linux-dev-tools", "365", "fix(sources): resolve symlinks when computing repo-relative lock paths", 8, 332, 27),
     ("microsoft/azure-linux-dev-tools", "392", "docs(config): document user-level override of project output directories", 2, 15, 0),
+    ("microsoft/azurelinux", "18984", "fix(publish): close base channel over rpmlint and dpkg-perl deps", 1, 8, 0),
+    ("microsoft/azurelinux", "18982", "docs(ci): fix broken links in ADO pipeline instructions", 1, 2, 2),
 ]
 
 # Qué hace cada PR, explicado en corto
 PRS_DESC = {
+    "365": {
+        "es": "Si el proyecto se abría a través de un enlace simbólico, la ruta del archivo lock salía mal y component render perdía el historial del changelog sin avisar. Añadí RepoRelPath, que resuelve los enlaces simbólicos, con sus tests. Cierra el issue #188.",
+        "en": "When the project was reached through a symlink, the lock file path came out wrong and component render silently dropped the changelog history. I added RepoRelPath, which resolves symlinks, with tests. Closes issue #188.",
+    },
     "18982": {
         "es": "Las instrucciones del pipeline de Azure DevOps enlazaban con rutas desde la raíz y GitHub las mostraba como 404. Las cambié a rutas relativas.",
         "en": "The Azure DevOps pipeline instructions linked with repo-root paths, which GitHub rendered as 404s. I switched them to relative paths.",
@@ -397,13 +402,13 @@ def azure_banner(lang: str) -> str:
         f'<rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="8" fill="{FONDO}" stroke="{BORDE}"/>'
         + icono("microsoftazure", 26, 22, 48, AZURE)
         + f'<text x="94" y="44" font-family="{SANS}" font-size="22" font-weight="700" fill="#f0f0f0">{e(T["azure_titulo"])}</text>'
-        f'<text x="94" y="70" font-family="{MONO}" font-size="13.5" fill="{GRIS}">{e(T["azure_sub"])} · '
-        f'<tspan fill="{VERDE}">+25</tspan> <tspan fill="{BORRADO}">−2</tspan></text>'
+        f'<text x="94" y="70" font-family="{MONO}" font-size="13.5" fill="{GRIS}">{e(T["azure_sub"].format(n=len(PRS), f=sum(x[3] for x in PRS)))} · '
+        f'<tspan fill="{VERDE}">+{sum(x[4] for x in PRS)}</tspan> <tspan fill="{BORRADO}">−{sum(x[5] for x in PRS)}</tspan></text>'
         f'<g transform="translate({w-150} 32)"><rect width="122" height="28" rx="14" fill="{MORADO}"/>'
         f'<g transform="translate(13 6)" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round">'
         '<circle cx="3.5" cy="3" r="2.2"/><circle cx="3.5" cy="13.5" r="2.2"/><circle cx="12.5" cy="8.2" r="2.2"/>'
         '<path d="M3.5 5.2 V11.3 M3.5 5.2 C3.5 8.2 7 8.2 10.3 8.2"/></g>'
-        f'<text x="72" y="19" text-anchor="middle" font-family="{SANS}" font-size="13" font-weight="700" fill="#fff">3 merged</text></g>'
+        f'<text x="72" y="19" text-anchor="middle" font-family="{SANS}" font-size="13" font-weight="700" fill="#fff">{len(PRS)} merged</text></g>'
     )
     return svg(w, h, cuerpo, T["azure_titulo"])
 
@@ -412,16 +417,17 @@ def pr_terminal(i: int, lang: str) -> str:
     T = TEXTOS[lang]
     repo, num, titulo, archivos, mas, menos = PRS[i]
     desc = PRS_DESC[num][lang]
-    w, fs = 324, 12.5
-    lineas = envolver(titulo, 36)
-    texto = envolver(desc, 44)
-    # misma altura en las tres terminales
-    max_t = max(len(envolver(t[2], 36)) for t in PRS)
-    max_d = max(len(envolver(PRS_DESC[t[1]][lang], 44)) for t in PRS)
+    w, fs = 492, 12.5
+    ct, cd = 58, 70  # caracteres por línea del título y de la descripción
+    lineas = envolver(titulo, ct)
+    texto = envolver(desc, cd)
+    # misma altura en todas las terminales
+    max_t = max(len(envolver(t[2], ct)) for t in PRS)
+    max_d = max(len(envolver(PRS_DESC[t[1]][lang], cd)) for t in PRS)
     h = 32 + 34 + 24 + 22 * max_t + 32 + 19 * max_d + 46 + 16
     p, xc = prompt(16, 56, fs)
     partes = [
-        terminal(w, h, repo.split('/')[1]),
+        terminal(w, h, f"{repo.split('/')[1]} — Konsole"),
         p,
         f'<text x="{xc:.1f}" y="56" font-family="{MONO}" font-size="{fs}" fill="{TEXTO}">gh pr view {num}</text>',
         f'<text x="16" y="84" font-family="{MONO}" font-size="{fs}" fill="{GRIS}">{e(repo)} #{num}</text>',
