@@ -23,11 +23,12 @@ Try them: [RippleRack on PyPI](https://pypi.org/project/ripplerack/) · [datasem
 
 ## Notable contributions
 
-<a href="https://github.com/pulls?q=is%3Apr+author%3AIzanVil+is%3Amerged+org%3Amicrosoft"><img src="assets/azure.en.svg" width="100%" alt="Contributions to Microsoft Azure Linux: 3 merged pull requests"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+author%3AIzanVil+is%3Amerged+org%3Amicrosoft"><img src="assets/azure.en.svg" width="100%" alt="Contributions to Microsoft Azure Linux: 4 merged pull requests"/></a>
 
-<a href="https://github.com/microsoft/azurelinux/pull/18982"><img src="assets/pr-18982.en.svg" width="32%" alt="microsoft/azurelinux #18982"/></a>
-<a href="https://github.com/microsoft/azurelinux/pull/18984"><img src="assets/pr-18984.en.svg" width="32%" alt="microsoft/azurelinux #18984"/></a>
-<a href="https://github.com/microsoft/azure-linux-dev-tools/pull/392"><img src="assets/pr-392.en.svg" width="32%" alt="microsoft/azure-linux-dev-tools #392"/></a>
+<a href="https://github.com/microsoft/azure-linux-dev-tools/pull/365"><img src="assets/pr-365.en.svg" width="49%" alt="microsoft/azure-linux-dev-tools #365"/></a>
+<a href="https://github.com/microsoft/azure-linux-dev-tools/pull/392"><img src="assets/pr-392.en.svg" width="49%" alt="microsoft/azure-linux-dev-tools #392"/></a>
+<a href="https://github.com/microsoft/azurelinux/pull/18984"><img src="assets/pr-18984.en.svg" width="49%" alt="microsoft/azurelinux #18984"/></a>
+<a href="https://github.com/microsoft/azurelinux/pull/18982"><img src="assets/pr-18982.en.svg" width="49%" alt="microsoft/azurelinux #18982"/></a>
 
 ## About me
 
