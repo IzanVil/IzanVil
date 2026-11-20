@@ -180,13 +180,36 @@ TEXTOS = {
 }
 
 # (repo, número, título del commit, archivos, +líneas, -líneas)
-PRS = [
-    ("microsoft/azure-linux-dev-tools", "441", "fix(archive): compress gzip repacks with klauspost/compress", 4, 25, 3),
-    ("microsoft/azure-linux-dev-tools", "365", "fix(sources): resolve symlinks when computing repo-relative lock paths", 8, 332, 27),
+PRS = [  # de la primera a la última
+    ("microsoft/azurelinux", "18982", "docs(ci): fix broken links in ADO pipeline instructions", 1, 2, 2),
     ("microsoft/azure-linux-dev-tools", "392", "docs(config): document user-level override of project output directories", 2, 15, 0),
     ("microsoft/azurelinux", "18984", "fix(publish): close base channel over rpmlint and dpkg-perl deps", 1, 8, 0),
-    ("microsoft/azurelinux", "18982", "docs(ci): fix broken links in ADO pipeline instructions", 1, 2, 2),
+    ("microsoft/azure-linux-dev-tools", "365", "fix(sources): resolve symlinks when computing repo-relative lock paths", 8, 332, 27),
+    ("microsoft/azure-linux-dev-tools", "441", "fix(archive): compress gzip repacks with klauspost/compress", 4, 25, 3),
 ]
+
+# Fecha y hora de merge (UTC, tal como la da GitHub); se muestra en hora de Madrid
+PRS_FECHA = {
+    "18982": "2026-09-29T15:02:02Z",
+    "392": "2026-10-23T23:53:20Z",
+    "18984": "2026-10-27T15:57:49Z",
+    "365": "2026-11-11T18:37:58Z",
+    "441": "2026-11-19T21:24:54Z",
+}
+
+MESES = {
+    "es": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+    "en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+}
+
+
+def fecha_merge(num: str, lang: str) -> str:
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    d = datetime.fromisoformat(PRS_FECHA[num].replace("Z", "+00:00")).astimezone(ZoneInfo("Europe/Madrid"))
+    mes = MESES[lang][d.month - 1]
+    return f"mergeada el {d.day} de {mes} de {d.year}" if lang == "es" else f"merged on {mes} {d.day}, {d.year}"
+
 
 # Qué hace cada PR, explicado en corto
 PRS_DESC = {
@@ -419,8 +442,8 @@ def azure_banner(lang: str) -> str:
 
 
 def pr_ancha(i: int) -> bool:
-    """Con un número impar de PR, la primera (la más reciente) ocupa todo el ancho."""
-    return i == 0 and len(PRS) % 2 == 1
+    """Con un número impar de PR, la última (la más reciente) ocupa todo el ancho."""
+    return i == len(PRS) - 1 and len(PRS) % 2 == 1
 
 
 def pr_terminal(i: int, lang: str) -> str:
@@ -452,7 +475,7 @@ def pr_terminal(i: int, lang: str) -> str:
     partes.append(
         f'<rect x="16" y="{y-15}" width="66" height="22" rx="11" fill="{MORADO}"/>'
         f'<text x="49" y="{y}" text-anchor="middle" font-family="{SANS}" font-size="12" font-weight="700" fill="#fff">{T["fusionada"]}</text>'
-        f'<text x="92" y="{y}" font-family="{MONO}" font-size="{fs}" fill="{GRIS}">IzanVil</text>'
+        f'<text x="92" y="{y}" font-family="{MONO}" font-size="{fs}" fill="{GRIS}">IzanVil · {e(fecha_merge(num, lang))}</text>'
     )
     y += 30
     for l in texto:
