@@ -141,7 +141,7 @@ TEXTOS = {
         "diario": [
             ("2024", "empiezo SMR"),
             ("2026", "termino SMR y empiezo ASIR"),
-            ("2026", "4 PR fusionadas en Microsoft Azure Linux"),
+            ("2026", "5 PR fusionadas en Microsoft Azure Linux"),
             ("ahora", "busco prácticas de sistemas / DevOps"),
         ],
         "stack1": "sistemas",
@@ -171,7 +171,7 @@ TEXTOS = {
         "diario": [
             ("2024", "start SMR (IT systems & networks)"),
             ("2026", "finish SMR, start ASIR"),
-            ("2026", "4 PRs merged into Microsoft Azure Linux"),
+            ("2026", "5 PRs merged into Microsoft Azure Linux"),
             ("now", "looking for a systems / DevOps internship"),
         ],
         "stack1": "systems",
@@ -180,15 +180,43 @@ TEXTOS = {
 }
 
 # (repo, número, título del commit, archivos, +líneas, -líneas)
-PRS = [
-    ("microsoft/azure-linux-dev-tools", "365", "fix(sources): resolve symlinks when computing repo-relative lock paths", 8, 332, 27),
+PRS = [  # de la primera a la última
+    ("microsoft/azurelinux", "18982", "docs(ci): fix broken links in ADO pipeline instructions", 1, 2, 2),
     ("microsoft/azure-linux-dev-tools", "392", "docs(config): document user-level override of project output directories", 2, 15, 0),
     ("microsoft/azurelinux", "18984", "fix(publish): close base channel over rpmlint and dpkg-perl deps", 1, 8, 0),
-    ("microsoft/azurelinux", "18982", "docs(ci): fix broken links in ADO pipeline instructions", 1, 2, 2),
+    ("microsoft/azure-linux-dev-tools", "365", "fix(sources): resolve symlinks when computing repo-relative lock paths", 8, 332, 27),
+    ("microsoft/azure-linux-dev-tools", "441", "fix(archive): compress gzip repacks with klauspost/compress", 4, 25, 3),
 ]
+
+# Fecha y hora de merge (UTC, tal como la da GitHub); se muestra en hora de Madrid
+PRS_FECHA = {
+    "18982": "2026-09-29T15:02:02Z",
+    "392": "2026-10-23T23:53:20Z",
+    "18984": "2026-10-27T15:57:49Z",
+    "365": "2026-11-11T18:37:58Z",
+    "441": "2026-11-19T21:24:54Z",
+}
+
+MESES = {
+    "es": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+    "en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+}
+
+
+def fecha_merge(num: str, lang: str) -> str:
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    d = datetime.fromisoformat(PRS_FECHA[num].replace("Z", "+00:00")).astimezone(ZoneInfo("Europe/Madrid"))
+    mes = MESES[lang][d.month - 1]
+    return f"mergeada el {d.day} de {mes} de {d.year}" if lang == "es" else f"merged on {mes} {d.day}, {d.year}"
+
 
 # Qué hace cada PR, explicado en corto
 PRS_DESC = {
+    "441": {
+        "es": "Los .tar.gz que reempaqueta azldev daban un hash distinto según la versión de Go con la que se compilaba, porque el gzip de la librería estándar cambia entre versiones. Lo pasé a klauspost/compress, que ya era dependencia, con un test. Cierra el issue #436.",
+        "en": "The .tar.gz files azldev repacks got a different hash depending on the Go version it was built with, because the standard library gzip output changes between releases. I switched it to klauspost/compress, already a dependency, with a test. Closes issue #436.",
+    },
     "365": {
         "es": "Si el proyecto se abría a través de un enlace simbólico, la ruta del archivo lock salía mal y component render perdía el historial del changelog sin avisar. Añadí RepoRelPath, que resuelve los enlaces simbólicos, con sus tests. Cierra el issue #188.",
         "en": "When the project was reached through a symlink, the lock file path came out wrong and component render silently dropped the changelog history. I added RepoRelPath, which resolves symlinks, with tests. Closes issue #188.",
@@ -413,17 +441,24 @@ def azure_banner(lang: str) -> str:
     return svg(w, h, cuerpo, T["azure_titulo"])
 
 
+def pr_ancha(i: int) -> bool:
+    """Con un número impar de PR, la última (la más reciente) ocupa todo el ancho."""
+    return i == len(PRS) - 1 and len(PRS) % 2 == 1
+
+
 def pr_terminal(i: int, lang: str) -> str:
     T = TEXTOS[lang]
     repo, num, titulo, archivos, mas, menos = PRS[i]
     desc = PRS_DESC[num][lang]
-    w, fs = 492, 12.5
-    ct, cd = 58, 70  # caracteres por línea del título y de la descripción
+    ancha = pr_ancha(i)
+    w, fs = (1000, 12.5) if ancha else (492, 12.5)
+    ct, cd = (120, 140) if ancha else (58, 70)  # caracteres por línea del título y de la descripción
     lineas = envolver(titulo, ct)
     texto = envolver(desc, cd)
-    # misma altura en todas las terminales
-    max_t = max(len(envolver(t[2], ct)) for t in PRS)
-    max_d = max(len(envolver(PRS_DESC[t[1]][lang], cd)) for t in PRS)
+    # misma altura en todas las terminales de la cuadrícula
+    grupo = [PRS[i]] if ancha else [t for k, t in enumerate(PRS) if not pr_ancha(k)]
+    max_t = max(len(envolver(t[2], ct)) for t in grupo)
+    max_d = max(len(envolver(PRS_DESC[t[1]][lang], cd)) for t in grupo)
     h = 32 + 34 + 24 + 22 * max_t + 32 + 19 * max_d + 46 + 16
     p, xc = prompt(16, 56, fs)
     partes = [
@@ -440,7 +475,7 @@ def pr_terminal(i: int, lang: str) -> str:
     partes.append(
         f'<rect x="16" y="{y-15}" width="66" height="22" rx="11" fill="{MORADO}"/>'
         f'<text x="49" y="{y}" text-anchor="middle" font-family="{SANS}" font-size="12" font-weight="700" fill="#fff">{T["fusionada"]}</text>'
-        f'<text x="92" y="{y}" font-family="{MONO}" font-size="{fs}" fill="{GRIS}">IzanVil</text>'
+        f'<text x="92" y="{y}" font-family="{MONO}" font-size="{fs}" fill="{GRIS}">IzanVil · {e(fecha_merge(num, lang))}</text>'
     )
     y += 30
     for l in texto:
